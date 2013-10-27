@@ -7,7 +7,7 @@ Automatically downloads subtitles for your movies and TV shows.
 ## Usage
 
 ```puppet
-include subtitles
+class { 'subtitles': version => '2.0' }
 ```
 
 ## Required Puppet Modules
