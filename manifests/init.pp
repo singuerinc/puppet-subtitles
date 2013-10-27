@@ -1,4 +1,7 @@
 # This is a placeholder class.
-class template {
-  anchor { 'Hello_World': }
+class subtitles($version='2.0') {
+  package { 'Subtitles':
+    provider => 'compressed_app',
+    source   => "http://subtitlesapp.com/download/Subtitles-mac-${version}.zip"
+  }
 }
