@@ -2,7 +2,7 @@ require 'spec_helper'
 
 describe 'subtitles' do
 
-  version = '2.0'
+  version = '2.1'
 
   it do
     should contain_package('Subtitles').with({
